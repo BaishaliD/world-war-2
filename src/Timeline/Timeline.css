@@ -1,0 +1,87 @@
+.bgImage {
+  filter: grayscale(100%);
+}
+
+.bgImage-overlay {
+  background: #03162577;
+  opacity: 1;
+}
+
+.container:hover .bgImage {
+  animation: showColor 1s ease forwards;
+}
+.container .bgImage {
+  animation: bleedColor 1s ease forwards;
+}
+
+.container .bgImage-overlay {
+  animation: showOverlay 1s ease forwards;
+}
+.container:hover .bgImage-overlay {
+  animation: hideOverlay 1s ease forwards;
+}
+
+@keyframes showColor {
+  to {
+    filter: grayscale(0);
+  }
+}
+
+@keyframes bleedColor {
+  from {
+    filter: grayscale(0);
+  }
+  to {
+    filter: grayscale(100%);
+  }
+}
+
+@keyframes hideOverlay {
+  to {
+    opacity: 0;
+  }
+}
+@keyframes showOverlay {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* .container:hover img {
+    animation: zoomin 1s ease forwards;
+  }
+  .container img {
+    animation: zoomout 1s ease forwards;
+  } */
+
+@keyframes zoomin {
+  to {
+    transform: scaleY(1.1);
+  }
+}
+
+@keyframes zoomout {
+  from {
+    transform: scaleY(1.1);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+
+/* .timeline {
+    visibility: hidden;
+    animation: appear 2s ease forwards;
+  }
+  
+  @keyframes appear {
+    from {
+      visibility: hidden;
+    }
+    to {
+      visibility: visible !important;
+    }
+  } */
