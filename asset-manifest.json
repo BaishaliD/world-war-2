@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/world-war-2/static/css/main.f356a91e.css",
-    "main.js": "/world-war-2/static/js/main.2d038565.js",
+    "main.js": "/world-war-2/static/js/main.a9137069.js",
     "static/js/787.2707a896.chunk.js": "/world-war-2/static/js/787.2707a896.chunk.js",
     "static/media/NormalMap.png": "/world-war-2/static/media/NormalMap.85321bf5242aadda2735.png",
     "static/media/stalingrad.jpeg": "/world-war-2/static/media/stalingrad.0455e3c21fbea30e2ef5.jpeg",
@@ -27,11 +27,11 @@
     "static/media/hitler.jpeg": "/world-war-2/static/media/hitler.4f2dbe3ea90cbbe9dfb6.jpeg",
     "index.html": "/world-war-2/index.html",
     "main.f356a91e.css.map": "/world-war-2/static/css/main.f356a91e.css.map",
-    "main.2d038565.js.map": "/world-war-2/static/js/main.2d038565.js.map",
+    "main.a9137069.js.map": "/world-war-2/static/js/main.a9137069.js.map",
     "787.2707a896.chunk.js.map": "/world-war-2/static/js/787.2707a896.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f356a91e.css",
-    "static/js/main.2d038565.js"
+    "static/js/main.a9137069.js"
   ]
 }
